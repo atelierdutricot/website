@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @include font-family-sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+q::before {
+  content: "«\a0";
+}
+q::after {
+  content: "\a0»";
+}
+
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a {
+  text-decoration-color: $brand-color;
+}

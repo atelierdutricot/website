@@ -1,0 +1,16 @@
+---
+---
+
+$brand-color: #d27c74;
+$light-gray: #ededed;
+
+@import "_fonts.scss";
+@import "_reset.scss"; // needs fonts
+@import "_utilities.scss";
+@import "components/_btn.scss";
+@import "components/_bottle.scss";
+@import "components/_img.scss";
+@import "components/_list.scss";
+@import "layouts/_frontpage.scss";
+@import "layouts/_page.scss";
+@import "layouts/_footer.scss";

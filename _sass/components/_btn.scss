@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 1em 3em;
+  box-shadow: #00000038 0 0 10px 0px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: $brand-color;
+  color: white;
+}
+
+.btn-lg {
+  font-size: 18px;
+}

@@ -1,0 +1,27 @@
+@mixin font-family-sans-serif {
+  font-family: "raleway", sans-serif;
+}
+
+@mixin font-family-serif {
+  font-family: playfair-display, serif;
+}
+
+@mixin font-size-large {
+  font-size: 20px;
+}
+
+.font-family-serif {
+	@include font-family-serif;
+}
+
+.font-size-large {
+	@include font-size-large;
+}
+ 
+.font-weight-normal {
+	font-weight: normal;
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.bottle {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottle-cap {
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  position: relative;
+  display: inline-block;
+  
+  img {
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media (min-width:601px) {
+  .bottle-right-handed {
+    flex-direction: row;
+
+    &> *:first-child {
+      margin-right: 15px;
+    }
+  }
+
+  .bottle-left-handed {
+    flex-direction: row-reverse;
+
+    &> *:first-child {
+      margin-left: 15px;
+    }
+  }
+}
+
+@media (max-width:600px) {
+  .bottle *:first-child {
+    margin-bottom: 15px;
+  }
+}

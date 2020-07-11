@@ -1,0 +1,32 @@
+.img-float-right {
+  @media (min-width:501px) {
+    margin: 0  0 20px 20px;
+    float: right;
+    max-width: 33%;
+  }
+  @media (max-width:500px) {
+    margin: 25px auto;
+    display: block;
+    max-width: 80%;
+  }
+}
+
+.img-float-left {
+  @media (min-width:501px) {
+    margin: 0 20px 20px 0;
+    float: left;
+    max-width: 33%;
+  }
+  @media (max-width:500px) {
+    margin: 25px auto;
+    display: block;
+    max-width: 80%;
+  }
+}
+
+.img-centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}

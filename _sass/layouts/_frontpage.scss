@@ -1,0 +1,59 @@
+.frontpage {
+  background-color: $brand-color;
+  color: white;
+
+  .brand-logo {
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .lead {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .photo {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.frontpage-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 3em 0;
+
+  a {
+    border: 3px solid white;
+    text-decoration: none;
+    padding: 12px 0px;
+    text-align: center;
+    width: 220px;
+    transition: background-color 0.3s ease;
+    box-shadow: #00000038 0 0 10px 0px;
+  }
+
+  a:hover {
+    background-color: #ffffff55;
+  }
+
+  @media (max-width:700px) {
+    flex-direction: column;
+    a {
+        margin: 7px 2px;
+    }
+  }
+}
+
+.frontpage-main {
+  .photo {
+    margin: 50px 0;
+    box-shadow: #0000008f 0 0 10px 0px;
+  }
+
+  text-align: justify;
+}

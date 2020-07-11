@@ -1,0 +1,92 @@
+.page-header {
+  background-color: $brand-color;
+  color: white;
+
+  @media (min-width:701px) {
+    padding: 20px 0;
+  }
+
+  .brand-link {
+    min-width: 120px;
+    max-width: 150px;
+    flex: 1;
+  }
+
+  .brand-logo {
+    width: 100px;
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.page-nav {
+  flex: 2;
+  display: flex;
+  
+  @media (min-width:701px) {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width:700px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.page-nav-item {
+  border: 1px solid white;
+  text-align: center;
+  width: 12em;
+  padding: 8px 0px;
+  margin: 5px 0;
+  box-shadow: #00000038 0 0 10px 0px;
+
+  &.active {
+    background: white;
+    color: $brand-color;
+  }
+}
+
+a.page-nav-item {
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  
+}
+
+a.page-nav-item:hover {
+  background-color: #ffffff55;
+}
+
+.page-content {
+  .lead {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  h1, h2 {
+    @include font-family-serif;
+    font-weight: normal;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  h2 {
+    background-color: $brand-color;
+    color: white;
+    max-width: 300px;
+    padding: 10px;    
+    margin-top: $margin-4;
+  }
+
+}

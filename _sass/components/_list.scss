@@ -1,0 +1,14 @@
+.list {
+  border-left: 15px solid $brand-color;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.list-long li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-unstyled {
+  list-style: none;
+}
