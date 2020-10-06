@@ -1,21 +1,30 @@
 <header class="page-header">
   <div class="container">
-    <a class="brand-link" href="{% link index.html %}"><img src="{% link assets/logo.svg %}" alt="Atelier du Tricot" class="brand-logo"></a>
+    <a class="brand-link" href="{% link index.html %}"
+      ><img
+        src="{% link assets/logo.svg %}"
+        alt="Atelier du Tricot"
+        class="brand-logo"
+    /></a>
     <nav class="page-nav">
       {% if include.active == 1 %}
       <span class="page-nav-item active">Je suis un créateur</span>
       {% else %}
-      <a class="page-nav-item" href="{% link offre-createurs.html %}">Je suis un créateur</a>
-      {% endif %}
-      {% if include.active == 2 %}
+      <a class="page-nav-item" href="{% link offre-createurs.html %}"
+        >Je suis un créateur</a
+      >
+      {% endif %} {% if include.active == 2 %}
       <span class="page-nav-item active">Je suis un particulier</span>
       {% else %}
-      <a class="page-nav-item" href="{% link offre-particuliers.html %}">Je suis un particulier</a>
-      {% endif %}
-      {% if include.active == 3 %}
+      <a class="page-nav-item" href="{% link offre-particuliers.html %}"
+        >Je suis un particulier</a
+      >
+      {% endif %} {% if include.active == 3 %}
       <span class="page-nav-item active">Je suis une passionnée</span>
       {% else %}
-      <a class="page-nav-item" href="{% link hiring.html %}">Je suis une passionnée</a>
+      <a class="page-nav-item" href="{% link tricotez-pour-nous.html %}"
+        >Je suis une passionnée</a
+      >
       {% endif %}
     </nav>
   </div>

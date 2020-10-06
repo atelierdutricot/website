@@ -19,12 +19,13 @@ description: >-
   Nos produits sont réalisés en France par des tricoteuses expérimentées.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atelierdutricot.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
 
 # Build settings
 markdown: kramdown
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
