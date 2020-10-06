@@ -48,3 +48,12 @@ description: |
   </div>
 </div>
 {% include footer.html %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}{% link assets/logo-1200.png %}"
+  }
+</script>
