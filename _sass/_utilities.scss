@@ -6,9 +6,9 @@ $breakpoint-md: 768px;
 
 .mt-0 {margin-top: 0; }
 .mb-0 {margin-bottom: 0; }
-.mb-4 {margin-bottom: $margin-4; }
+.mb-4, .my-4 {margin-bottom: $margin-4; }
+.mt-4, .my-4 {margin-top: $margin-4;}
 .m-4 {margin: $margin-4; }
-.my-4 {margin-top: $margin-4; margin-bottom: $margin-4;}
 .p-4 {padding: $margin-4; }
 .p-1 {padding: $padding-1;}
 .p-2 {padding: $padding-2;}
